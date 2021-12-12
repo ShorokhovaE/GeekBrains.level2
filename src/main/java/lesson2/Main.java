@@ -37,8 +37,8 @@ public class Main {
         }
 
         int x = 0;
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < str.length; i++) {
+            for (int j = 0; j < str[i].length; j++) {
                 try {
                     x += Integer.parseInt(str[i][j]);
                 } catch (NumberFormatException e) {
